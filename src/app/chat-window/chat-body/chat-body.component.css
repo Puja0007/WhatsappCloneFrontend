@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.header{
+    
+    background-color: #dadbd3;
+}
+.dp{
+    padding-left: 20px;
+    
+   
+}
+.dp img{
+    border-radius: 50%;
+
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    background-color: #dadbd3;
+    width:100%;
+}
