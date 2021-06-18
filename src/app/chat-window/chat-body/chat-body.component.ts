@@ -11,5 +11,8 @@ export class ChatBodyComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+smilee(){
+  console.log("puja");
+  
+}
 }

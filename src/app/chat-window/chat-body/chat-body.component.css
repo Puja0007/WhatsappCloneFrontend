@@ -21,3 +21,17 @@
     background-color: #dadbd3;
     width:100%;
 }
+
+
+/* Chat body footer */
+.chat-input{
+    border-radius:25px;
+    width:60%;
+
+}
+.chat-section{
+    background-image: url("https://i1.wp.com/novocom.top/image/aS5yZZWRkLWRkLml0/qwd83nc4xxf41.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+}
