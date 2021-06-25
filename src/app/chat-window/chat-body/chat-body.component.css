@@ -8,8 +8,6 @@
 }
 .dp{
     padding-left: 20px;
-    
-   
 }
 .dp img{
     border-radius: 50%;
@@ -20,6 +18,7 @@
     bottom:0;
     background-color: #edeee5de;;
     width:100%;
+    height: 55px;
 }
 
 
@@ -33,5 +32,56 @@
     background-image: url("https://i.imgur.com/TnNwdvV.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height:100vh;
+    height:100%;
+    position: absolute;
+    top: 66px;
+    bottom: 55px;
+    width: 100%;
+    padding: 20px;
+    overflow-y: scroll;
+    
+}
+
+.msg{
+    float: left;
+    max-width: 200px;
+    min-width: 100px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    margin: 10px;
+    display: block;
+}
+
+/* .username{
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    top: 0;
+    font-size: 10px;
+    
+    color: gray;
+} */
+
+.msg-body{
+    
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    
+}
+
+.msg-time{
+    
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-size: 10px;
+    color: gray;
+}
+.msg.send{
+    background-color: #a6f3c3;
+    float: right;
 }
